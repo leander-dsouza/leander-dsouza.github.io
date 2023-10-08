@@ -88,7 +88,7 @@ html[data-theme="dark"] {
 
 ::-webkit-scrollbar-thumb:hover {
   background: #ca9eff;
-  
+
 }
 
 /* Custom Scrollbar for Mozilla Firefox*/
@@ -313,7 +313,7 @@ color: #ffffff !important;
   background-color: rgba(255, 255, 255, 0.5);
 }
 .dsc{
-   box-shadow:   2px 5px 5px 0px rgb(130 216 251), 
+   box-shadow:   2px 5px 5px 0px rgb(130 216 251),
    inset -2px -5px 5px 0px rgb(130 216 251);
    background: #1f1d1d;
 }
@@ -397,7 +397,7 @@ color: #ffffff !important;
       width: 32%;
       border-bottom: 3px solid #6a00bb;
   }
-  
+
   .nav-item-hover::after {
       content: "";
       display: block;
@@ -409,10 +409,10 @@ color: #ffffff !important;
       background-color: #6a00bb;
       transition: all ease-in-out 280ms;
   }
-  
+
   .nav-item:hover::after {
       width: 50%;
-      
+
   }
 
   li.nav-item {
@@ -1010,7 +1010,7 @@ Send button micro animation
   position: relative;
   margin-left: 4rem;
   width: 270px;
-  
+
 }
  button{
 width: 15rem;
@@ -1020,7 +1020,7 @@ outline: none;
 #lnch :hover{
     cursor: pointer;
     outline: none;
-    
+
 }
 #lnch {
   font-size: 25px;

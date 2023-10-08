@@ -3,16 +3,16 @@
 html[data-theme="light"] {
   --col-icon: black;
   --col-bd-radius:rgb(2, 2, 2);
-  --col-box-shadow:#000000 2px 2px 4px, 
+  --col-box-shadow:#000000 2px 2px 4px,
   #4D4D4D -2px -2px 4px;
- --col-box-shadow-hover:inset #8a7373 2px 2px 4px, 
+ --col-box-shadow-hover:inset #8a7373 2px 2px 4px,
  inset #4D4D4D -2px -2px 4px;
   --col-bd-icon:transparent;
   --bg-icon: #fff;
    --bg1-color: #fff;
   --col-icon-dribbble: #ea4c89;
   --col-icon-linkedin: #0e76a8;
-  --col-icon-kaggle: #41aff3;  
+  --col-icon-kaggle: #41aff3;
   --col-icon-instagram: rgb(201, 94, 174);
   --col-icon-mail:rgb(209, 82, 82);
   --col-icon-google-scholar:#3cba54;
@@ -27,7 +27,7 @@ html[data-theme="dark"] {
   --col-bd-radius:black;
   --col-bd-icon:transparent;
   --col-box-shadow: 5px 5px 10px rgba(22, 21, 21, 0.7) , -5px -5px 10px rgba(255,255,255,0.1);
-  --col-box-shadow-hover:inset rgba(255, 255, 255, 1) 2px 2px 4px, 
+  --col-box-shadow-hover:inset rgba(255, 255, 255, 1) 2px 2px 4px,
  inset rgba(255, 255, 255, 0.5) -2px -2px 4px;
   --col-icon-dribbble: #ea4c89;
   --col-icon-linkedin: #0e76a8;
@@ -49,6 +49,25 @@ body{
   height: 100vh;
   width: 100%;
 }
+
+.video-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.video-container video {
+  min-width: 100%; /* Video minimum width is 100% of the viewport */
+  min-height: 100%; /* Video minimum height is 100% of the viewport */
+  width: auto;
+  height: auto;
+  object-fit: cover;
+}
+
 
 .section {
   background-color: rgb(63, 25, 170);
@@ -166,7 +185,7 @@ html[light-mode="dark"] .socialicon{
   transform: translate(0, var(--link-size));
   border-radius: 50%;
   transition: var(--trans-props);
-  
+
 }
 
 .socialicon.kaggle:after {
@@ -196,9 +215,9 @@ html[light-mode="dark"] .socialicon{
    }
   0%{
       y:13px;
-      height:8px;  
+      height:8px;
       }
-  
+
 }
 
 .linkedin:hover .linkedin-icon> circle{
@@ -215,7 +234,7 @@ html[light-mode="dark"] .socialicon{
   0%{
       cy:4px
       }
-  
+
 }
 
 /*
@@ -226,7 +245,7 @@ html[light-mode="dark"] .socialicon{
 
 .instagram-icon {
   width: 90px !important;
- 
+
 }
 .st0 {
   fill:none;
@@ -256,7 +275,7 @@ html[light-mode="dark"] .socialicon{
 @keyframes shutter {
   0%, 50% {
           stroke-dashoffset: 150;
-          
+
       }
   75% {
           fill:#EF4649;
@@ -288,12 +307,12 @@ html[light-mode="dark"] .socialicon{
 .twitter:hover #wing1{
       transform-origin:center;
       animation: flap 0.4s ease-out infinite alternate;
-   }	
-   
+   }
+
 .twitter:hover #wing2{
     transform-origin:center;
     animation: flap 0.4s ease-in infinite alternate;
- }		
+ }
 
 @keyframes flap{
      50%{
@@ -332,68 +351,68 @@ html[light-mode="dark"] .github-icon{
      DRIBBBLE MICROANIMATION
   --------------------------
   */
-  
+
   .dribbble-icon{
     width: 30px;
     height: 30px;
     margin-left:16px;
     margin-top: 20px;
   }
-  
-  .dribbble:hover .dribbble-icon{ 
+
+  .dribbble:hover .dribbble-icon{
       animation: dribbble-bounce .4s ease infinite;
       transform: rotate(360deg);
       transition: all 9s ease-in-out 0s;
   }
-  
+
   @keyframes dribbble-bounce {
     from, to {
       margin-top: 20px;
     }
-    50% { 
-      margin-top: 15px; 
+    50% {
+      margin-top: 15px;
     }
-    
+
     75%{
       margin-top: 15px;
     }
   }
-  
+
   /*
   --------------------------
      CODEFORCES MICROANIMATION
   --------------------------
   */
-  
+
   .codeforces-icon{
     margin-right: 6px;
     margin-top: 6px;
   }
-  
+
   .codeforces-icon .red {
     height:4px;
     y:2.5px;
-    
+
   }
   .codeforces:hover .red{
     animation: red-animation 2.5s infinite alternate;
   }
-  
-  
+
+
   .codeforces-icon .yellow{
     height:5px;
     y:1.5px;
-    
+
   }
-  
+
   .codeforces:hover .yellow{
     animation: yellow-animation 2s infinite alternate-reverse;
   }
-  
+
   .codeforces:hover .blue{
     animation: blue-animation 2s  infinite alternate;
   }
-  
+
   @keyframes red-animation{
     0%{
        y:0px
@@ -403,7 +422,7 @@ html[light-mode="dark"] .github-icon{
         y:0.5px;
     }
   }
-  
+
   @keyframes yellow-animation{
     0%{
         y:0px;
@@ -413,7 +432,7 @@ html[light-mode="dark"] .github-icon{
         y:0.5px;
     }
   }
-  
+
   @keyframes blue-animation{
     0%{
         y:0px;
@@ -423,8 +442,8 @@ html[light-mode="dark"] .github-icon{
         y:3.5;
     }
   }
-  
-  
+
+
 
 /*
 ----------------------------
@@ -512,7 +531,7 @@ a:hover {
   .text{
     margin-top: 6rem;
   }
- 
+
 
 }
 
@@ -527,7 +546,7 @@ a:hover {
   .text{
     margin-top: 4rem;
   }
-  
+
   img{
     height:100px;
     width:150px;
@@ -541,7 +560,7 @@ a:hover {
     width:56px;
     height:56px;
   }
-  
+
 }
 
 @media (max-width:380px)and (max-height:440px){
