@@ -81,7 +81,7 @@ html {
 .s2 .head {
   font-size: 2rem;
   font-weight: bold;
-} 
+}
 
 /*properties for online accreditaions(MOOCS) heading*/
 
@@ -408,7 +408,7 @@ header p {
   position:absolute;
   text-align: left;
   padding-right: 5px;
-} 
+}
 .timeline-item:nth-child(even) .timeline-content .date {
   left: auto;
   right: 0;
@@ -486,7 +486,7 @@ header p {
   display: inline-block;
   border-radius: 2px;
   box-shadow: 0 1px 3px -1px rgba(0, 0, 0, 0.6);
-  position: absolute; 
+  position: absolute;
   right:0;
 }
 
@@ -550,7 +550,7 @@ blockquote {
 
 .alignment{
   padding-left: 20px;
-  
+
 }
 
     /* Media Query  header/footer */
@@ -573,7 +573,7 @@ blockquote {
           display: none;
       }
     }
-    
+
     @media (max-width: 414px) {
       .collapse navbar-collapse {
           display: flex;
@@ -589,7 +589,7 @@ blockquote {
           display: none;
       }
     }
-    
+
     @media (max-width: 375px) {
       .collapse navbar-collapse {
           display: flex;
@@ -605,7 +605,7 @@ blockquote {
           display: none;
       }
     }
-    
+
     @media (max-width: 320px) {
       .collapse navbar-collapse {
           display: flex;
@@ -717,16 +717,16 @@ blockquote {
     left: -15px;
     border-width: 10px 15px 10px 0;
     border-color: transparent #f5f5f5 transparent transparent;
-  } 
+  }
 }
- 
+
   @media (max-width:502px){
     .timelineHeading2{
       font-size: 120%;
     }
   }
   @media (max-width:582px){
-    .timelineHeading2{ 
+    .timelineHeading2{
       font-size: 117%;
     }
   }
@@ -761,7 +761,7 @@ blockquote {
   }
  @media(max-width:378px){
   .container{
-    font-size: 80%;  
+    font-size: 80%;
   }
  }
   @media(max-width:346px){
