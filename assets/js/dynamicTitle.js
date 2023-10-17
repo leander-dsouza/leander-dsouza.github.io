@@ -1,7 +1,7 @@
 window.onload = function () {
   const favicon = document.getElementById('favicon')
   const pageTitle = document.title
-  const attentionMessage = 'Come back'
+  const attentionMessage = 'Leander\'s Profile Awaits You.'
 
   document.addEventListener('visibilitychange', function (e) {
     const isPageActive = !document.hidden
@@ -11,10 +11,10 @@ window.onload = function () {
   function toggle(isPageActive) {
     if (isPageActive) {
       document.title = pageTitle
-      favicon.href = './assets/images/dp_male.svg'
+      favicon.href = './assets/images/lsd_headshot.jpg'
     } else {
       document.title = attentionMessage
-      favicon.href = './assets/images/folded.png'
+      favicon.href = './assets/images/sunglasses.png'
     }
   }
 }
