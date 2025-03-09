@@ -5,6 +5,17 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
+    title: "Robotics Commissioning Engineer",
+    cardImage: "assets/images/experience-page/dexory.png",
+    place: "<a href='https://www.dexory.com/'>Dexory</a>",
+    time: "(Sep 2024 - Mar 2025)",
+    desp:" \
+      <br/><li>Developed commissioning software for validating the subassemblies during production.</li> \
+      <br/><li>Verified and validated software releases while rolling them onto the company's fleet.</li> \
+      <br/><li>Created diagnostics software for the service team to maintain the robot efficiently.</li> \
+      "
+  },
+  {
     title: "Robotics Engineer",
     cardImage: "assets/images/experience-page/black-bcr.png",
     place: "<a href='https://www.blackcoffeerobotics.com/'>Black Coffee Robotics</a>",
