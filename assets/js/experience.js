@@ -84,6 +84,12 @@ document.addEventListener("DOMContentLoaded", showCards2);
 const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
   {
+    title: "<a href='https://github.com/ros-navigation/navigation2/pulls?q=is%3Amerged+is%3Apr+author%3Aleander-dsouza+'>Nav2</a>",
+    cardImage: "assets/images/experience-page/nav2.png",
+    description:
+      "Fixes include message migration, statically typing the whole codebase, and expanding the STVL voxel clearing.",
+  },
+  {
     title: "<a href='https://github.com/Kinovarobotics/ros_kortex/commits?author=leander-dsouza'>ROS Kortex</a>",
     cardImage: "assets/images/experience-page/kinova.jpeg",
     description:
