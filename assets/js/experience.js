@@ -5,6 +5,17 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
+    title: "Contributor @ Open Robotics",
+    cardImage: "assets/images/experience-page/gsoc.png",
+    place: "<a href='https://www.openrobotics.org/blog/2025/7/14/google-summer-of-code-2025/'>Google Summer of Code</a>",
+    time: "(May 2025 - Sep 2025)",
+    desp:" \
+      <br/><li>Renamed <a href='https://github.com/dirk-thomas/vcstool'>vcstool</a> to <a href='https://github.com/ros-infrastructure/vcs2l'>vcs2l</a> with its updated implementation under <a href='https://github.com/ros-infrastructure'>ROS Infrastructure</a>.</li> \
+      <br/><li>Added support for modern Python and released the package under <a href='https://pypi.org/project/vcs2l'>PyPI</a> and as a <a href='http://packages.ros.org/ros2/ubuntu/pool/main/p/python3-vcs2l'>Debian</a>.</li> \
+      <br/><li>Addressed long-standing community feature requests described in this <a href='https://medium.com/@leanderdsouza1234/gsoc-25-modernisation-of-vcstool-with-open-robotics-20f56e65eb03'>Medium article</a>.</li> \
+      "
+  },
+  {
     title: "Robotics Commissioning Engineer",
     cardImage: "assets/images/experience-page/dexory.png",
     place: "<a href='https://www.dexory.com/'>Dexory</a>",
@@ -83,6 +94,12 @@ document.addEventListener("DOMContentLoaded", showCards2);
 
 const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
+  {
+    title: "<a href='https://github.com/ros-infrastructure/vcs2l'>vcs2l</a>",
+    cardImage: "assets/images/experience-page/ros_infrastructure.png",
+    description:
+      "Current project maintainer actively handling long-standing community feature requests and modern Python migration.",
+  },
   {
     title: "<a href='https://github.com/ros-navigation/navigation2/pulls?q=is%3Amerged+is%3Apr+author%3Aleander-dsouza+'>Nav2</a>",
     cardImage: "assets/images/experience-page/nav2.png",
