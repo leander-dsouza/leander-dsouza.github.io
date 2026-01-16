@@ -5,6 +5,15 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
+    title: "Robotics Software Engineer",
+    cardImage: "assets/images/experience-page/rosenxt.png",
+    place: "<a href='https://www.rosen-nxt.com/en/'>Rosenxt</a>",
+    time: "(Jan 2026 - Present)",
+    desp:" \
+      <br/><li>Working towards improving navigation across ROV deployment.</li> \
+      "
+  },
+  {
     title: "Contributor @ Open Robotics",
     cardImage: "assets/images/experience-page/gsoc.png",
     place: "<a href='https://www.openrobotics.org/blog/2025/7/14/google-summer-of-code-2025/'>Google Summer of Code</a>",
